@@ -1,5 +1,5 @@
-Google Play Music Prompt
-========================
+Google Play Music Close Prompt
+==============================
 
-This is a userscript that adds a prompt when closing tab/window when Google 
-Play Music is still playing.
+This is a userscript that adds a prompt when attempting to close the tab/window 
+while Google Play Music is still playing.
