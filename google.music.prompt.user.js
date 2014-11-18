@@ -4,7 +4,7 @@
 // @version         0.1
 // @grant           none
 // @author          little-vince
-// @namespace       http://little-vince.tumblr.com/
+// @namespace       http://little-vince.github.io/
 // @include         *play.google.com/music/listen*
 // @updateURL       https://raw.githubusercontent.com/little-vince/google-music-prompt/master/google.music.prompt.user.js
 // @downloadURL     https://raw.githubusercontent.com/little-vince/google-music-prompt/master/google.music.prompt.user.js
