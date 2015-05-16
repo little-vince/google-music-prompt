@@ -13,7 +13,7 @@
 // Last edited 16 May 2015
 
 window.onbeforeunload = function() {
-	if (document.querySelector("button.playing")) {
+	if (document.querySelector(".playing")) {
 		return "Music is currently playing.";
 	}
 };
