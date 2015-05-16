@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Google Play Music Close Prompt
 // @description     If music is playing, it will prompt you before closing the tab
-// @version         0.1
+// @version         0.2
 // @grant           none
 // @author          little-vince
 // @namespace       http://little-vince.github.io/
@@ -10,11 +10,10 @@
 // @downloadURL     https://raw.githubusercontent.com/little-vince/google-music-prompt/master/google.music.prompt.user.js
 // ==/UserScript==
 
-// Last edited 25 February 2014
+// Last edited 16 May 2015
 
 window.onbeforeunload = function() {
-	var player = document.querySelector("div.player-middle");
-	if (player.querySelector("button.playing")) {
+	if (document.querySelector("button.playing")) {
 		return "Music is currently playing.";
 	}
 };
